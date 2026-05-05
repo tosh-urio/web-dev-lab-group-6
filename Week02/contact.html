@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Student Portal</title>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="timetable.html">Timetable</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact Group no 6</h1>
+
+    
+    <h2>Basic Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="email" placeholder="your names" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder=" write your Email" id="email" name="email" required><br><br>
+
+        <label for="message">Message about your skills:</label><br>
+        <textarea id="message" placeholder=" Message about your skills" name="message" rows="15" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post">
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" required> Male
+                    <input type="radio" name="gender" value="Female" required> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Courses:</td>
+                <td>
+                    <input type="checkbox" name="courses" value="HTML"> HTML
+                    <input type="checkbox" name="courses" value="CSS"> CSS
+                    <input type="checkbox" name="courses" value="JavaScript">
+                    JavaScript
+                    <input type="checkbox" name="courses" value="WEB DEVELOPMENT" />WEB DEV
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

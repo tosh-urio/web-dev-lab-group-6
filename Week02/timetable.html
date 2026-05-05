@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable - Student Portal</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="timetable.html">Timetable</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Student Timetable</h1>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td rowspan="2">Web development CN 270</td>
+                <td>Network infrastructure IS248</td>
+                <td>Project CN 500</td>
+                <td>Automation industrial is555</td>
+                <td>HTML WB001</td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <!-- WEB DEV continues Monday -->
+                <td>Project CN 500</td>
+                <td>Computer Science</td>
+                <td>Automation Industrial is555</td>
+                <td>HTML WB 001</td>
+            </tr>
+            <tr>
+                <td>10:00 - 10:30</td>
+                <td colspan="5" style="text-align:center;">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>10:30 - 11:30</td>
+                <td>Computer science </td>
+                <td rowspan="2">Web development</td>
+                <td>English</td>
+                <td>Automation industrial</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>WEB DEVELOPMENT </td>
+                <!-- web development continues Tuesday -->
+                <td>ENGLISH</td>
+                <td>HTML WB001</td>
+                <td>Network infrastructure</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
